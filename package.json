@@ -1,0 +1,29 @@
+{
+  "name": "image-analyzer",
+  "version": "0.0.0",
+  "description": "A tool to determine the benefits of image optimization",
+  "private": true,
+  "bin": {
+    "image-analyzer": "./bin/image-analyzer"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": {
+    "name": "Bryan Pizzillo",
+    "email": "bryanp@mail.nih.gov",
+    "url": "https://github.com/bryanpizzillo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryanpizzillo/image-analyzer"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/bryanpizzillo/image-analyzer/issues",
+  "dependencies": {
+    "commander": "~2.0.0",
+    "autocmdr": "~0.0.7"
+  },
+  "devDependencies": {
+  }
+}
