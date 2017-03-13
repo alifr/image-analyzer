@@ -1,2 +1,6 @@
 /node_modules/
 npm-debug.log
+/input/
+/output/
+/image_cache/
+/optimized_images/
